@@ -1,0 +1,40 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url("../background.png");	
+}
+
+#main {
+	/*background: rgba(0,0,0,0.0);*/
+	display: block;
+	text-align:center;
+	top: 50%;
+	left: 50%;
+	color:#fff;
+}
+
+#main h1 {
+	font-size:35px;
+	font-weight:bold;
+	color:#fff;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+

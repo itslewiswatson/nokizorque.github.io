@@ -1,21 +1,12 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background: url("../background.png");	
+	color: white;
 }
 
-#main {
-	/*background: rgba(0,0,0,0.0);*/
-	display: block;
-	text-align:center;
-	top: 50%;
-	left: 50%;
-	color:#fff;
-}
-
-#main h1 {
-	font-size:35px;
-	font-weight:bold;
-	color:#fff;
+h1 {
+	font-size: 35px;
+	font-weight: bold;
 }
 
 a:link {
@@ -38,3 +29,33 @@ a:active {
 	text-decoration: none;
 }
 
+p {
+	font-size: medium;
+}
+
+.technologies {
+	margin-bottom: 15px;	
+}
+
+.technologies ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	margin: 20px auto 20px auto;
+}
+
+.technologies li {
+	background-color: white;
+	padding: 0em 1em;
+	border-radius: 5px;
+	color: #5E5E5E;
+	font-size: 16px;
+}
+
+.noki-list {
+	list-style-type: none;
+}
+
+.info-text {
+	/*margin-top: 10px;*/
+}

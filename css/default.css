@@ -9,32 +9,23 @@ h1 {
 	font-weight: bold;
 }
 
-a:link {
-	color: white;
-	text-decoration: none;
+h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-a:visited {
-	color: white;
-	text-decoration: none;
+hr.nz {
+	margin: 5px, auto, 5px;
 }
 
-a:hover {
+a:link, a:hover, a:active, a:link, a:visited {
 	color: white;
-	text-decoration: underline;
-}
-
-a:active {
-	color: white;
+	background-color: none;
 	text-decoration: none;
 }
 
 p {
 	font-size: medium;
-}
-
-.technologies {
-	margin-bottom: 15px;	
 }
 
 .technologies ul {
@@ -55,8 +46,33 @@ p {
 
 .noki-list {
 	list-style-type: none;
+	overflow: hidden;
 }
 
-.info-text {
-	/*margin-top: 10px;*/
+.nav {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	list-style: none;
+  }
+
+nav>li>a {
+	color: white;
+	background-color: none;
+	transition: color 300ms, background-color 300ms;
+}
+
+.nav>li>a:visited, .nav>li>a:active {
+	background-color: none;
+}
+
+.nav>li>a:hover {
+	color: #5E5E5E;
+	background-color: white;
+	transition: color 300ms, background-color 300ms
+}
+
+.list-inline {
+	margin-top: 5px !important;
 }
